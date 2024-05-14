@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "deep-learning"
+version = "0.1.0"
+description = ""
+authors = ["bulwark <noemail@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.4.2"
+tensorflow = "^2.16.1"
+pillow = "^10.3.0"
+h5py = "^3.11.0"
+keras = "^3.3.3"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
